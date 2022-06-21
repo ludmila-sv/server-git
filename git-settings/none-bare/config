@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	bare = false
+[receive]
+	denyCurrentBranch = ignore
+# since git 2.4 - denyCurrentBranch = updateInstead
+# otherwise (with 'ignore') you need to run git --git-dir=ls-web.git reset --hard on the server
