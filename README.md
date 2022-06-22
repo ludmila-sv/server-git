@@ -60,7 +60,7 @@ after each push.
 
 #---------------
 
-SSH connection
+SSH connection (for jino ru)
 
 1. create a folder in the root:
 .ssh
